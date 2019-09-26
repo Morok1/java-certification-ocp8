@@ -17,8 +17,8 @@ interface MyInt{
 	/*
 	 * All variables are by default static and final
 	 */
-    int i = 9;
-	void foo();
+    static final int i = 9;
+	abstract void foo();
 }
 
 abstract class MyAbs implements MyInt{
