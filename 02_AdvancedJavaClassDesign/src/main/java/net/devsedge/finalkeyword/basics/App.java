@@ -19,8 +19,8 @@ public class App {
 	}
 	public static void main(String[] args) {
 		
-		int x=1;
-		int y=1;
+		final int x=1;
+		final int y=1;
 		y=2;
 		
 		class C{
@@ -32,7 +32,7 @@ public class App {
 				 * Uncommenting next line would cause compilation error
 				 */
 				
-				//int b=y;
+				int b=y;
 			}
 		}
 	}

@@ -25,7 +25,7 @@ abstract class MyAbs implements MyInt{
 	/*
 	 * an abstract method must be explicitly defined as "abstract"
 	 */
-	abstract void bar();
+	void bar(){};
 	/*
 	 * a concrete method
 	 */
