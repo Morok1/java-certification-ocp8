@@ -38,7 +38,7 @@ abstract class MyAbs implements MyInt{
  */
 class C extends MyAbs{
 
-	@Override
+//	@Override
 	public void foo() {}
 
 	@Override

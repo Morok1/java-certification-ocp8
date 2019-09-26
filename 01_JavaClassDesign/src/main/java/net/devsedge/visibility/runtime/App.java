@@ -13,6 +13,7 @@ public class App extends Super{
 		 * and it's declared "private" in Super class.
 		 */
 //		app.foo();
+
 	}
 
 	/*
