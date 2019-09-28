@@ -28,6 +28,7 @@ public class App {
 		queue.add("D");
 		queue.offer("A");	//returns false if no space available
 		queue.offer("C");
+		queue.offer("D");
 		System.out.println(queue);
 		
 		/*

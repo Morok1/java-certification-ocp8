@@ -58,7 +58,7 @@ class MyComp implements Comparator<String>{
  *
  */
 class MyClass{
-	static int compareMethod(String a,String b){
+	static int compareMethod(final String a, final String b){
 		return a.length()-b.length();
 	}
 }
