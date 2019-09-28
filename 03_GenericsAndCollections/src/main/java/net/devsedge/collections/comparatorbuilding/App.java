@@ -24,7 +24,7 @@ public class App {
 		Collections.sort(l,new MyComp());
 		
 		// ...implementing it (via lambda expression)
-		Collections.sort(l,(a,b)->a.length()-b.length());
+		Collections.sort(l, Comparator.comparingInt(String::length));
 		
 		// ...implementing it (via method reference)
 		Collections.sort(l,MyClass::compareMethod);
