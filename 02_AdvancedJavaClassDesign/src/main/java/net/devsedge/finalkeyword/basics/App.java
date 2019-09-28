@@ -21,7 +21,7 @@ public class App {
 		
 		final int x=1;
 		final int y=1;
-		y=2;
+
 		
 		class C{
 			void foo(){
